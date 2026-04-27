@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Agent runtime artifacts (generated on each run)
+workspace/
+agent_log.jsonl
+*.log
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+ANTHROPIC_API_KEY*
+
+# Local Claude Code config
+.claude/settings.local.json
