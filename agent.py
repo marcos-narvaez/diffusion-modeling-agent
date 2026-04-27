@@ -66,7 +66,7 @@ from validators import validate_report
 
 # ── Configuration ──────────────────────────────────────────────────────────
 
-MODEL = os.environ.get("AGENT_MODEL", "claude-sonnet-4-5-20250929")
+MODEL = os.environ.get("AGENT_MODEL", "claude-sonnet-4-6")
 MAX_TOKENS = 8000
 MAX_TURNS = 150
 WORK_DIR = Path("./workspace")
